@@ -5,7 +5,7 @@ Repository: https://github.com/DrBlackross/TFT-based-Ai-for-Kraken
 This repository contains a Python-based cryptocurrency trading bot designed to make automated trading decisions on the Kraken exchange. It leverages a Transformer-based neural network (inspired by the Temporal Fusion Transformer - TFT) and various technical indicators to predict market movements and execute trades.
 The bot supports both live trading (with real funds) and paper trading (simulated trading without risk) for Bitcoin (XBTUSDT) and Dogecoin (DOGEUSDT).
 
-### Also i kept this script based on Kraken (CoinBase being what it is api wise)
+### Also I kept this script based on Kraken (CoinBase being what it is api wise)
  Want to see how to (kinda) implement CoinBase trading look at this script of mine (nightmare)...
  https://github.com/DrBlackross/transformer-base-Ai-kraken/blob/main/coinbase-trans-bot.py
 
