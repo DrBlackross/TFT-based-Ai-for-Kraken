@@ -5,7 +5,11 @@ Repository: https://github.com/DrBlackross/TFT-based-Ai-for-Kraken
 This repository contains a Python-based cryptocurrency trading bot designed to make automated trading decisions on the Kraken exchange. It leverages a Transformer-based neural network (inspired by the Temporal Fusion Transformer - TFT) and various technical indicators to predict market movements and execute trades.
 The bot supports both live trading (with real funds) and paper trading (simulated trading without risk) for Bitcoin (XBTUSDT) and Dogecoin (DOGEUSDT).
 
-#### Features
+### Also i kept this script based on Kraken (CoinBase being what it is api wise)
+ Want to see how to (kinda) implement CoinBase trading look at this script of mine (nightmare)...
+ https://github.com/DrBlackross/transformer-base-Ai-kraken/blob/main/coinbase-trans-bot.py
+
+### Features
 - Transformer-based Model: Utilizes a custom PyTorch Transformer model for time-series forecasting and trade signal generation.
 - Technical Indicator Integration: Incorporates a wide range of popular technical indicators (RSI, MACD, Bollinger Bands, ATR, etc.) as features for the model.
 - ATR Multiplier Optimization: Automatically searches for the optimal Average True Range (ATR) multiplier during training to define trade thresholds.
@@ -15,7 +19,7 @@ The bot supports both live trading (with real funds) and paper trading (simulate
 - Configurable Trading Pairs: Easily switch between DOGEUSDT and XBTUSDT.
 - Scalable Feature Engineering: Dynamically generates features based on a configurable INDICATOR_CONFIG.
 
-#### How It Works
+### How It Works
 The bot operates in two main phases:
 
 ##### 1. Training and Optimization:
@@ -33,7 +37,7 @@ The bot operates in two main phases:
 - Based on the predicted action and current balances, the bot executes a trade (or simulates it in paper trading mode).
 - All trading activities, balances, and portfolio values are logged to the console and TensorBoard for monitoring.
 
-Setup for Linux (Python)
+### Setup for Linux (Python)
 Follow these steps to get the trading bot up and running on your Linux system.
 
 ##### 1. Prerequisites
