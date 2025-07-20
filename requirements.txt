@@ -1,0 +1,11 @@
+pandas>=2.0.0
+pandas-ta>=0.3.14b0
+krakenex>=1.0.0
+pykrakenapi>=0.3.2
+transformers>=4.0.0
+torch>=2.0.0
+scikit-learn>=1.0.0
+joblib>=1.0.0
+numpy>=1.26.0
+tensorboard>=2.0.0
+accelerate>=0.26.0
