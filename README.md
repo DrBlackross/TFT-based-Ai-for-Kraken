@@ -171,17 +171,20 @@ To visualize the trading performance and model metrics, you can use TensorBoard.
 Then, open your web browser and navigate to the address provided by TensorBoard (usually http://localhost:6006).
 
 ## Important Notes
-(the yada-yada)
+(the usual yada-yada)
 
 ##### Risk Warning: 
 Live trading involves real financial risk. Only use LIVE_TRADING = True if you fully understand the risks and are comfortable with the bot's behavior.
 API Rate Limits: Be mindful of Kraken's API rate limits. The SLEEP_TIME_SECONDS is designed to help mitigate this, but excessive requests can lead to temporary bans.
-Model Performance: Past performance is not indicative of future results. Cryptocurrency markets are highly volatile and unpredictable.
+Model Performance: Past performance is not indicative of future results. Cryptocurrency markets are highly volatile and unpredictable. (PAPER first!)
+
+**Disclaimer**: Cryptocurrency trading carries substantial financial risk, including the potential for total loss of capital. This trading bot is provided for educational, research, and experimental purposes only. It is not financial advice. Do not use this bot for live trading with funds you cannot afford to lose. Always thoroughly understand the code, test extensively in paper trading mode, and fully comprehend the risks involved before deploying any automated trading system with real money. The author assumes no responsibility for any financial losses incurred through the use of this software.
+
+**If it works or you think its cool, send me a few Dogecoin  DNgPXztNRmj5qp5jdPP2ZKm1r4u6eQmaZJ**
+
 
 Customization: Feel free to experiment with the USER CONFIGURABLE SETTINGS and even the model architecture (CryptoTFT class) to optimize performance for your specific needs.
 Contributing
 Contributions are welcome! If you have suggestions for improvements, bug fixes, or new features, please open an issue or submit a pull request.
 License
 This project is open-source and available under the MIT License.
-
-#### If it works or you think its cool, send me a few Dogecoin DNgPXztNRmj5qp5jdPP2ZKm1r4u6eQmaZJ
