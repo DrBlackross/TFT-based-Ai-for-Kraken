@@ -170,7 +170,7 @@ To visualize the trading performance and model metrics, you can use TensorBoard.
 
 Then, open your web browser and navigate to the address provided by TensorBoard (usually http://localhost:6006).
 
-##Important Notes
+## Important Notes
 (the yada-yada)
 
 ##### Risk Warning: 
@@ -184,4 +184,4 @@ Contributions are welcome! If you have suggestions for improvements, bug fixes, 
 License
 This project is open-source and available under the MIT License.
 
-#####If it works or you think its cool, send me a few Dogecoin DNgPXztNRmj5qp5jdPP2ZKm1r4u6eQmaZJ
+#### If it works or you think its cool, send me a few Dogecoin DNgPXztNRmj5qp5jdPP2ZKm1r4u6eQmaZJ
