@@ -65,8 +65,10 @@ Its highly recommended to use a Python virtual environment to manage dependencie
 ##### 4. Install Dependencies
 Install all required Python packages using pip:
 
-		pip install pandas pandas-ta krakenex pykrakenapi transformers torch scikit-learn joblib tensorboard
-
+	pip install pandas pandas-ta krakenex pykrakenapi transformers torch scikit-learn joblib tensorboard
+##### OR
+	pip install -r ./requirements.txt
+  
 ##### 5. Configure Kraken API Keys
 For live trading, you need Kraken API keys. Never hardcode your API keys directly into the script. Instead, set them as environment variables.
 
