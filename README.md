@@ -1,5 +1,6 @@
-### Kraken AI Trading Bot
+### TFT Based Kraken AI Trading Bot
 Repository: https://github.com/DrBlackross/TFT-based-Ai-for-Kraken
+ The gist of this, using transformers is way easier than all the extra scripts required for my simple RSI in this script or my other one both running CPU only. The other RSI scripts are a straight math/time (math over time), using transformers they have been "technically" easier (with setup and walk away). But also with transformers they learn the markets past and look forward which is IMHO easier.  
 
 This repository contains a Python-based cryptocurrency trading bot designed to make automated trading decisions on the Kraken exchange. It leverages a Transformer-based neural network (inspired by the Temporal Fusion Transformer - TFT) and various technical indicators to predict market movements and execute trades.
 The bot supports both live trading (with real funds) and paper trading (simulated trading without risk) for Bitcoin (XBTUSDT) and Dogecoin (DOGEUSDT).
